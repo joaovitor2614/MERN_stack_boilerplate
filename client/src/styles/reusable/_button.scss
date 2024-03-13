@@ -1,0 +1,89 @@
+.button {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.4;
+    font-weight: 400;
+    padding: 0.8rem;
+    text-align: center;
+    letter-spacing: 0.15px;
+  }
+  
+  .button--primary {
+    background: #1a73e8;
+    color: #ffffff;
+    transition: 0.4s ease-out;
+  }
+
+  
+  .button--primary:hover {
+    background: #4178c0;
+  }
+
+  .button--third {
+    background: #3abe57;
+    color: #ffffff;
+    transition: 0.4s ease-out;
+  }
+
+  .button--third:hover {
+    background: #2c9c45;
+  }
+  
+  .button--secondary {
+    border: 1px solid #dadce0;
+    background: #fff;
+    color: #3c4043;
+    transition: 0.4s ease-out;
+  }
+  
+  .button--g {
+    background: #238636;
+    color: #ffffff;
+    transition: 0.4s ease-out;
+  }
+  
+  .button--g:hover {
+    background: #58e975;
+    color: #ffffff;
+  }
+  
+  .button--secondary:hover {
+    background: #d8d8d8;
+  }
+  
+  .button--m-r {
+    margin-right: 0.8rem;
+  }
+
+  .button--remove {
+    background: #bd180f;
+    color: #ffffff;
+    transition: 0.4s ease-out;
+  }
+
+  .button--mtb-l {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem
+  }
+
+
+ 
+
+  .button--mt {
+    margin-top: 0.2rem;
+  }
+
+  .button--login {
+    border-radius: 20px;;
+    background: linear-gradient(to right, #9C48F0, #7d0dee);
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #ffffff;
+    transition: 0.4s ease-out;
+    height: 45px;
+    width: 345px;
+    text-align: center;
+    margin-top: 4rem;
+  }

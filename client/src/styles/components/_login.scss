@@ -1,0 +1,60 @@
+.login-page {
+    align-items: center;
+
+    background: linear-gradient(135deg, #FFC266, #D47100 70%);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.login-page__box {
+    background: white;
+    border-radius: 20px;
+     box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.2);
+    background-position: center;
+    border-radius: 15px;
+
+    padding: 1.8rem 1rem;
+    text-align: center;
+   
+}
+
+.login-page__box-form {
+    width: 25rem;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-page__box-form h2 {
+    font-size: 2rem;
+    font-family: "Montserrat";
+    font-weight: 900;
+    
+    position: relative;
+}
+
+.login-page__box-form > * {
+    margin: 1rem 0;
+}
+
+.button-login {
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 4rem;
+    height: 40px;
+    /* border-radius: 20px; */
+    background: linear-gradient(to right, #9C48F0, #7d0dee);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.button-login:hover {
+    background: linear-gradient(to left, #914cd6, #7f0cf1);
+}

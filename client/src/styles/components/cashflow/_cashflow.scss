@@ -1,0 +1,249 @@
+.cashflow-bg {
+    align-items: center;
+     margin-left: 3rem;
+    display: flex;
+
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.cashflow-page {
+    
+    display: flex;
+    flex-direction: row;
+    
+  
+    margin: 0 auto;
+   
+ 
+    height: 37rem;
+   padding: 15px;
+   width: 67rem;
+    
+}
+
+.cashflow-page__group {
+ 
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid black;
+    padding-right: 15px;
+    height: 36rem;
+    width: 62rem;
+    
+   
+}
+
+
+
+.cashflow-page__group-cart {
+    height: 36rem;
+   display: flex;
+   flex-direction: column;
+    padding: 5px;
+    width: 47rem;
+    margin-left: 1rem;
+ 
+    white-space: pre-wrap;
+    word-break: break-word;
+  
+}
+
+
+
+
+
+.cashflow-page__group-cart-form {
+    display: flex;
+   flex-direction: row;
+   margin-bottom: 4px;
+}
+
+
+.cashflow-display {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.cashflow-page__group-cart-form__box {
+    padding: 10px;
+    width: 33rem;
+  
+}
+
+
+.cashflow-page__group-cart-form__box-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.cashflow-page__group-cart-form__box-content * {
+   margin: 0 1.2rem
+}
+
+.cashflow-page__group-cart-form__box-content-utils {
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+}
+
+.cashflow-page__group-cart-form__box-content-utils * {
+   margin: 0 0.8rem
+}
+
+.cashflow-page__group-cart-form__box-content2 {
+    @extend .cashflow-page__group-cart-form__box-content;
+    margin-top: 0.4rem;
+    padding: 10px;
+}
+
+.cashflow-page__group-cart-form__box-content2 * {
+    margin: 1rem;
+}
+
+
+.cashflow-page__group-cart__list {
+ 
+    height: 30rem;
+    color: #adbac7;
+    padding: 6px;
+    border-bottom: 1px solid rgb(206, 199, 199);
+    
+ 
+}
+
+.cashflow-page__group-cart__list-item {
+ 
+    border-bottom: 1px solid rgb(148, 146, 146);
+    padding: 0.1rem;
+     
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.cashflow-page__group-cart__list-item__header {
+
+  
+    color: #adbac7;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem;
+}
+
+.cashflow-page__group-cart__list-item__amount {
+    padding: 0 9px;
+    font-weight: 300;
+    
+}
+
+.cashflow-page__group-cart__list-item__header > h5 {
+    color: black;
+    font-weight: 500;
+}
+
+.cashflow-page__group-query {
+    margin-bottom: 0.5rem;
+}
+
+.cashflow-page__group-list {
+    height: 35rem;
+    padding: 4px;
+}
+
+.cashflow-page__group-cart-content {
+    height: 34.5rem;
+}
+
+.cashflow-page__group-cart-content a {
+    margin-bottom: auto;
+}
+
+
+.cashflow__query-input {
+    color: black;
+    border-radius: 20px;
+    height: 0.7rem;
+    width: 2rem;
+    outline: none;;
+   
+
+}
+
+.cashflow-page__group-list__toggle {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+.cashflow-page__group-list__toggle > * {
+    padding: 0;
+    margin: 0;
+}
+
+.input-amount {
+    outline: none;
+    height: 15px;
+    width: 10px;
+    text-align: center;
+    color: black;
+}
+
+.cashflow-page__group-list__item {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(209, 204, 204);
+}
+
+
+.cashflow-page__group-list__item-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.cashflow-page__group-list__item-actions {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    padding: 3px;
+}
+
+.cashflow-page__group-list__item-actions-info {
+    align-items: center;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+}
+
+.cashflow-page__group-list__item-actions-info * {
+    margin: 0 4px;
+}
+
+.cashflow-page__group-list__item-amount {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+}
+
+
+.cashflow-page__group-list__item-actions > * {
+    margin: 0.2rem 0;
+}
+
+.cashflow-page__client {
+    cursor: pointer;
+    transition: background .3s ease;
+    border-bottom: 1px solid black;
+    &:hover {
+        background:#f7f7f7;
+    }
+}
+
